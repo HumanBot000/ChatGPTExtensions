@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Refresh",
+  "version": "1.1",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://chat.openai.com/*"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GPT Prompt collection",
-  "version": "2.0",
+  "version": "2.1",
   "description": "Das ultimative ChatGPT Prompt STRG+V",
   "permissions": [
     "activeTab"
@@ -17,5 +17,8 @@
       "matches": ["https://chat.openai.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "icons8-sprechblase-128.png"
+  }
 }

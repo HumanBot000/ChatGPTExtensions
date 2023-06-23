@@ -1,3 +1,4 @@
+// Erstellen des Upload-Buttons
 var uploadButton = document.createElement('button');
 uploadButton.innerHTML = 'Upload';
 uploadButton.style.backgroundColor = 'rgb(25, 195, 125)';
@@ -23,14 +24,17 @@ uploadButton.addEventListener('click', function() {
   fileInput.click();
 });
 
+// Zielfeld für den Textbereich
 var targetTextarea = document.getElementById('prompt-textarea');
+
+// Erstellen des Container-Divs
 var containerDiv = document.createElement('div');
 containerDiv.style.position = 'relative';
 
+// Hinzufügen des Container-Divs und des Upload-Buttons zur Seite
 targetTextarea.parentNode.insertBefore(containerDiv, targetTextarea);
 containerDiv.appendChild(targetTextarea);
 containerDiv.insertBefore(uploadButton, targetTextarea);
-
 
 
 // Speichern des Button-Status im Local Storage

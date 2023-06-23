@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Upload to GPT",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Textdatein auf chatgpt hochladen",
   "permissions": [
     "activeTab"
@@ -17,5 +17,8 @@
       "matches": ["https://chat.openai.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "icons8-datei-128.png"
+  }
 }
