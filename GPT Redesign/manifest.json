@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "GPT Redesign",
+  "version": "1.1",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://chat.openai.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*"
+      ],
+      "js": ["contentScript.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
