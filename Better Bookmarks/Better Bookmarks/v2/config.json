@@ -1,0 +1,15 @@
+{
+    "groups": {
+      "Group 1": [
+        { "text": "ChatGPT Base", "value": "https://chat.openai.com/" },
+        { "text": "Allgemein", "value": "https://chat.openai.com/c/27bbb977-bae5-4616-b200-7c180d2d70be" },
+        { "text": "Programmierung", "value": "https://chat.openai.com/c/ce78d1ea-b121-4553-a94c-875ca2f08198" },
+        { "text": "Hausaufgaben", "value": "https://chat.openai.com/c/4941daa2-c063-45db-ba74-77a623cef05e" }
+      ],
+      "Group 2": [
+        { "text": "Option 1", "value": "https://chat.openai.com/c/group2-option1" },
+        { "text": "Option 2", "value": "https://chat.openai.com/c/group2-option2" }
+      ]
+    }
+  }
+  

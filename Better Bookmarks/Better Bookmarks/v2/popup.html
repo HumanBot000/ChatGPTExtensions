@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Better Bookmarks</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      padding: 10px;
+    }
+
+    .group {
+      margin-bottom: 20px;
+    }
+
+    .group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .group select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .group.disabled select {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    button {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h3>Better Bookmarks</h3>
+  <h6>Add new pages in the popup.js</h6>
+
+  <div id="group-container"></div>
+
+
+  <button id="submit-button">Open Page</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

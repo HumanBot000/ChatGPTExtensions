@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Better Bookmarks V2",
+    "version": "2.0",
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
