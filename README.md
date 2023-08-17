@@ -15,4 +15,4 @@
 		- You can set the Label of the group (example "Group 1")
 		- You can set the label and url of each item
 2. Reload the application
-![See this Button](https://ibb.co/WW0ZYbh)
+![See this Button](https://i.ibb.co/6R8zf3M/Unbenannt.png)
